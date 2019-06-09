@@ -1,0 +1,107 @@
+html {
+    box-sizing: border-box;
+:margin = 0 px;
+:padding = 0 px;
+}
+
+.firsttask {
+    margin-left: 50px;
+    margin-right: 330px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.a-level {
+    margin-right: 30px;
+    vertical-align: middle;
+}
+
+.txt1 {
+    margin-left: 202px;
+    margin-top: 0;
+}
+.Hoffman
+{
+    color: green;
+::after
+content: attr(title)
+}
+
+.firsttask sub,i {
+    color: blue;
+}
+
+.a-level2 {
+    margin-left: 120px;
+    vertical-align: bottom;
+    display:inline-block;
+}
+
+.img2 {
+    display:inline-block;
+}
+
+.letters {
+    font-size: 12em;
+    font-weight: bold;
+    text-align: center;
+    background-size: 100%;
+    background: url(http://risovach.ru/upload/2014/03/generator/kosmos_44277148_orig_.jpeg) no-repeat fixed;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    transition: background-size 3s 0.3s ease;
+}
+
+.letters:hover {
+    background-size: 150%;
+}
+
+
+.boxes {position: relative}
+
+article {
+    position: absolute;
+    box-sizing:border-box;
+    width: 100px;
+    height: 100px;
+    border: solid 1px;
+    padding:15px 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    background-color: #eee;
+        }
+
+article:hover {
+    position: absolute;
+    box-sizing:border-box;
+    width: 200px;
+    height: 200px;
+    border: solid 1px;
+    padding:15px 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    background-color: #eee;
+    z-index: 5;
+        }
+
+.box1 { top: 0; left: 0; }
+.box2 { top: 50px; left:50px; }
+.box3 { top:100px; left:100px; }
+.box4 { top:150px; left:150px; }
+
+.box1 { z-index: 1; }
+.box2 { z-index: 2; }
+.box3 { z-index: 3; }
+.box4 { z-index: 4; }
+
+.first {color: red; font-size: 2em;}
+.second {color: blue; font-size: 2em}
+.third {color:yellow; font-size: 2em}
+.fourth {color: green; font-size: 2em}
+
+article:hover span{
+    display:none
+}
+
+article:hover:after {
+    content: "Poker is a family of card games that combines gambling, strategy, and skill. All poker variants involve betting as an intrinsic part of play, and determine the winner of each hand according to the combinations of players";
+    ;
+}
