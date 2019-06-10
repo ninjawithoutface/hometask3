@@ -54,6 +54,8 @@ content: attr(title)
 
 .letters:hover {
     background-size: 150%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 
